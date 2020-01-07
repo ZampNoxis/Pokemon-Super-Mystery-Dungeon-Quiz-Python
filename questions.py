@@ -1,14 +1,15 @@
-question1 = ["A nerve-racking first day at school! You want to make friends with someone you just met. What do you do?",
-             "A new student transfers into your class. What do you do?"]
-question2 = ["Disaster strikes! You've lost your wallet! Now what are you going to do?",
-             "Two of your friends are fighting, and you wish they'd stop. What do you do first?"]
-question3 = ["Everyone at school is talking about this great new book, but it's big and long...",
-             "They start selling a new kind of pastry at your favorite bakery..."]
-question4 = ["Halfway to school you realize you forgot something. You'll be late if you turn back...",
-             "You've been hiking up a mountain for two hours but still haven't reached the peak..."]
-question5 = ["All right! Dinnertime at last! You're starving, and you can hardly think about anything else except the "
-             "chance to eat...",
-             "You want to jump rope during recess, but everyone else wants to play tag..."]
+question1 = ["\nA nerve-racking first day at school! You want to make friends with someone you just met. What do you "
+             "do?",
+             "\nA new student transfers into your class. What do you do?"]
+question2 = ["\nDisaster strikes! You've lost your wallet! Now what are you going to do?",
+             "\nTwo of your friends are fighting, and you wish they'd stop. What do you do first?"]
+question3 = ["\nEveryone at school is talking about this great new book, but it's big and long...",
+             "\nThey start selling a new kind of pastry at your favorite bakery..."]
+question4 = ["\nHalfway to school you realize you forgot something. You'll be late if you turn back...",
+             "\nYou've been hiking up a mountain for two hours but still haven't reached the peak..."]
+question5 = ["\nAll right! Dinnertime at last! You're starving, and you can hardly think about anything else except "
+             "the chance to eat...",
+             "\nYou want to jump rope during recess, but everyone else wants to play tag..."]
 
 q1_answers = ['\n1)Turn to them and introduce yourself.\n2)Wait nervously for them to talk to you.',
               '\n1)Offer to show them around the school.\n2)Wait to see what kind of person they are.']
