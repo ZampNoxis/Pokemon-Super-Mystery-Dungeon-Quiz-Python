@@ -1,5 +1,5 @@
 import random
-import questions
+import lists
 
 # Function for prompting the user to input their choice corresponding to the two choices
 def input_func():
@@ -11,13 +11,13 @@ sunny = calm = flexible = serious = cooperate = False
 # TODO: Turn inputs and if-else statements into a function with a while loop
 # One of the two questions for question 1 are randomly picked and assigned to a variable. The corresponding answers are
 # outputted depending on the question picked.
-q1_var = random.choice(questions.question1)
+q1_var = random.choice(lists.questions[0])
 print(q1_var)
 
-if q1_var == questions.question1[0]:
-    print(questions.q1_answers[0])
+if q1_var == lists.questions[0][0]:
+    print(lists.answers[0][0])
 else:
-    print(questions.q1_answers[1])
+    print(lists.answers[0][1])
 
 # User is prompted to input either 1 or 2. Otherwise the program ends.
 input_choice = input_func()
@@ -28,52 +28,52 @@ if input_choice == 1 or input_choice == 2:
     if input_choice == 1:
         sunny = True
 
-    q2_var = random.choice(questions.question2)
+    q2_var = random.choice(lists.questions[1])
     print(q2_var)
 
-    if q2_var == questions.question2[0]:
-        print(questions.q2_answers[0])
+    if q2_var == lists.questions[1][0]:
+        print(lists.answers[1][0])
     else:
-        print(questions.q2_answers[1])
+        print(lists.answers[1][1])
 
     input_choice = input_func()
     if input_choice == 1 or input_choice == 2:
         if input_choice == 1:
             calm = True
 
-        q3_var = random.choice(questions.question3)
+        q3_var = random.choice(lists.questions[2])
         print(q3_var)
 
-        if q3_var == questions.question3[0]:
-            print(questions.q3_answers[0])
+        if q3_var == lists.questions[2][0]:
+            print(lists.answers[2][0])
         else:
-            print(questions.q3_answers[1])
+            print(lists.answers[2][1])
 
         input_choice = input_func()
         if input_choice == 1 or input_choice == 2:
             if input_choice == 1:
                 flexible = True
 
-            q4_var = random.choice(questions.question4)
+            q4_var = random.choice(lists.questions[3])
             print(q4_var)
 
-            if q4_var == questions.question4[0]:
-                print(questions.q4_answers[0])
+            if q4_var == lists.questions[3][0]:
+                print(lists.answers[3][0])
             else:
-                print(questions.q4_answers[1])
+                print(lists.answers[3][1])
 
             input_choice = input_func()
             if input_choice == 1 or input_choice == 2:
                 if input_choice == 1:
                     serious = True
 
-                q5_var = random.choice(questions.question5)
+                q5_var = random.choice(lists.questions[4])
                 print(q5_var)
 
-                if q5_var == questions.question5[0]:
-                    print(questions.q5_answers[0])
+                if q5_var == lists.questions[4][0]:
+                    print(lists.answers[4][0])
                 else:
-                    print(questions.q5_answers[1])
+                    print(lists.answers[4][1])
 
                 input_choice = input_func()
                 if input_choice == 1 or input_choice == 2:
@@ -85,11 +85,7 @@ if input_choice == 1 or input_choice == 2:
 
                     if not sunny and not calm and not flexible and not serious:
                         # Unmoving
-                        # You're a little shy and perhaps too concerned with others' well-being.
-                        #
-                        # But that's precisely why you're so kind to those around you.
-                        #
-                        # That warm, caring personality must be...
+                        print(lists.results[0])
                         pass
                     elif not sunny and not calm and serious and not cooperate:
                         # Man
