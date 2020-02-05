@@ -79,7 +79,6 @@ if input_choice == 1 or input_choice == 2:
                 if input_choice == 1 or input_choice == 2:
                     if input_choice == 1:
                         cooperate = True
-                    # TODO: Add logic to if-else statements
                     for x in range(50):
                         print('-', end='')
 
