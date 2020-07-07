@@ -1,9 +1,11 @@
 import random
 import lists
 
+
 # Function for prompting the user to input their choice corresponding to the two choices
 def input_func():
     return int(input("\nEnter 1 or 2: "))
+
 
 # Initialize all 5 values to False
 sunny = calm = flexible = serious = cooperate = False
